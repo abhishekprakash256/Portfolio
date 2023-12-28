@@ -1,0 +1,11 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome to my Flask and Bootstrap website!</h1>
+    <p>This is a simple website with a Flask backend and Bootstrap frontend.</p>
+    <a class="btn btn-primary" href="{{ url_for('form') }}">Go to Form</a>
+</div>
+{% endblock %}
